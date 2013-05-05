@@ -1,15 +1,9 @@
-<h1>Menu#displayMenu</h1>
+
 
 <h2>Starters</h2>
 
 <% start=Starter.all() %>
-<table>
-	<tr>
-		<th> Name  </th>
-		<th> Description </th>
-		<th> Price </th>
-	</tr>
-
+<table class="table">
 	
 	<tr>
 		<% start.each do |d| %>
@@ -23,13 +17,8 @@
 <h2>Main Dishes</h2>
 
 <% dish=Menu.all() %>
-<table>
-	<tr>
-		<th> Name  </th>
-		<th> Description </th>
-		<th> Price </th>
-	</tr>
-
+<table class="table">
+	
 	
 	<tr>
 		<% dish.each do |d| %>
@@ -43,13 +32,7 @@
 <h2>Desserts</h2>
 
 <% dess=Dessert.all() %>
-<table>
-	<tr>
-		<th> Name  </th>
-		<th> Description </th>
-		<th> Price </th>
-	</tr>
-
+<table class="table">
 	
 	<tr>
 		<% dess.each do |d| %>
@@ -63,13 +46,7 @@
 <h2>Drinks</h2>
 
 <% drink=Drink.all() %>
-<table>
-	<tr>
-		<th> Name  </th>
-		<th> Description </th>
-		<th> Price </th>
-	</tr>
-
+<table class="table">
 	
 	<tr>
 		<% drink.each do |d| %>
@@ -82,4 +59,4 @@
 
 
 
-<p>Find me in app/views/menu/displayMenu.html.erb</p>
+

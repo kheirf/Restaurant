@@ -5,7 +5,7 @@ class CreateDesserts < ActiveRecord::Migration
       t.string :description
       t.string :price
 
-      t.timestamps
+      
     end
   end
 end
